@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.require_paths = ['lib']
   s.files = `git ls-files`.split("\n")
   s.license     = 'MIT'
-  s.add_runtime_dependency 'rspec', '~> 3.1'
+  s.add_runtime_dependency 'rspec', '~> 3.5'
   s.add_runtime_dependency 'rest-client', '< 3.0', '>= 1.7.3'
   s.add_runtime_dependency 'sinatra', '2.0.0.beta2'
   s.add_runtime_dependency 'rack-test', '~> 0.6', '>= 0.6.2'
